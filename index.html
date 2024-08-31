@@ -14,8 +14,17 @@
   </head>
   <body>
     <h1>Tic Tac Toe</h1>
+    <div id="startScreenContainer">
+        <div id="nameInputContainer">
+            <input type="text" value="Player1" id="player1" name="player1">
+            <input type="text" value="Player2" id="player2" name="player2">
+        </div>
+        <div id="startButtonContainer">
+            <button id="startButton">Start</button>
+        </div>
+    </div>  
     <div id="game-container">
-        <div id="game-infoDisplay"></div>
+        <div id="game-statusDisplay"></div>
         <div id="gameboard-container">
             <div class="gameboard-square" id="gameboard-square1"></div>
             <div class="gameboard-square" id="gameboard-square2"></div>
@@ -27,12 +36,8 @@
             <div class="gameboard-square" id="gameboard-square8"></div>
             <div class="gameboard-square" id="gameboard-square9"></div>
         </div>
-        <div id="game-nameInput">
-            <input type="text" value="Player1" id="player1" name="player1">
-            <input type="text" value="Player2" id="player2" name="player2">
-        </div>
-        <div id="game-button-container">
-            <button id="newGame">New Game</button>
+        <div id="resetButtonContainer">
+            <button id="resetButton">Reset</button>
         </div>
     </div>
     <script src="/main.js"></script>
