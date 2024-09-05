@@ -1,0 +1,3 @@
+*.mjs
+*.json
+node_modules/
